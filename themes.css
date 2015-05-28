@@ -7,6 +7,9 @@ body {
 header {
   background-color: rgba(153, 0, 51, .5);
 }
+header p {
+  color: rgb(255, 117, 25);
+}
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3em;
@@ -29,9 +32,9 @@ img {
 h2 {
   font-family: 'Playfair Display', serif;
 }
-
 ul {
   list-style-type: none;
+  padding: 0;
 }
 a {
   text-decoration: none;
