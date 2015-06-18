@@ -1,6 +1,11 @@
+// out: ../css/themes.css
+@import "small";
+@import "large";
+
+$headingFont: 'Open Sans', sans-serif;
+
 body {
-  background-image: url("http://www.bridgeconsultoria.com.br/wp-content/uploads/2014/04/simple-background-71.jpg");
-  font-family: 'Open Sans', sans-serif;
+  font-family: $headingFont;
   color: #990033;
   font-size: 18px;
 }
