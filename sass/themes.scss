@@ -25,9 +25,15 @@ body {
     border-radius: 200px;
   }
 }
-.btn .btn-success button {
-  background-color: blue;
+
+.btn-primary a {
+  color: white;
 }
+
+.btn.btn-default.site-btn {
+  color: $bright;
+}
+
 h2 {
   font-family: $headingFont;
   font-size: 2em;
