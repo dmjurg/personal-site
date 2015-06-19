@@ -1,86 +1,36 @@
-header {
-  height: 600px; }
+.about li {
+  list-style: none; }
 
-h1, p {
-  margin: 0;
-  max-width: 455px;
-  margin: auto; }
-
-h1 {
-  padding-top: 75px; }
-
-img {
-  display: block;
-  margin: auto; }
-
-.about-me {
-  text-align: center; }
-
-.about-me ul {
-  margin: 0;
-  height: 600px; }
-
-.about-me ul li {
-  max-width: 600px;
-  margin: auto; }
-
-h2 {
-  margin: 0; }
-
-.projects {
-  height: 600px;
-  text-align: center; }
-
-.communicate {
-  text-align: center; }
-
-.communicate ul {
-  margin: 0;
-  height: 600px; }
-
-a {
-  padding: 5px 10px 5px;
-  display: inline-block;
-  border-radius: 5px; }
+.container .row .col-md-4 img .site_img {
+  max-width: 100px; }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #990033;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #1a1a1a; }
 
-header {
-  background-color: rgba(153, 0, 51, 0.5); }
+.jumbotron .container h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: #00cccc; }
 
-header p {
-  color: #ff7519; }
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3em;
-  color: #ffff99; }
-
-img {
-  width: 350px;
+.jumbotron .container img {
   border-radius: 200px; }
 
-.about-me {
-  font-family: 'News Cycle', sans-serif;
-  font-size: 1.5em; }
-
-.about-me ul {
-  background-color: rgba(255, 117, 25, 0.5); }
-
-.communicate h2, ul {
-  background-color: rgba(255, 255, 153, 0.5); }
+.btn .btn-success button {
+  background-color: blue; }
 
 h2 {
-  font-family: 'Playfair Display', serif; }
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #00cccc; }
 
-ul {
-  list-style-type: none;
-  padding: 0; }
+li {
+  font-family: "Playfair Display", serif;
+  font-size: 1.75em; }
 
 a {
-  text-decoration: none;
-  background-color: #990033;
-  color: #ffff99; }
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em; }

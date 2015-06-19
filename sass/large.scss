@@ -1,50 +1,13 @@
 // out: ../css/large.css
 
-header {
-  height: 600px;
+.about li {
+  list-style: none;
 }
-h1, p {
-  margin: 0;
-  max-width: 455px;
-  margin: auto;
-}
-h1{
-  padding-top: 75px;
-}
-img {
-  display: block;
-  margin: auto;
-}
-.about-me {
-  text-align: center;
-}
-.about-me ul {
-  margin: 0;
-  height: 600px;
-}
-
-.about-me ul li {
-  max-width: 600px;
-  margin: auto;
-}
-
-h2 {
-  margin: 0;
-}
-
-.projects {
-  height: 600px;
-  text-align: center;
-}
-.communicate {
-  text-align: center;
-}
-.communicate ul {
-  margin: 0;
-  height: 600px;
-}
-a {
-  padding: 5px 10px 5px;
-  display: inline-block;
-  border-radius: 5px;
+.container .row .col-md-4 img .site_img {
+    max-width: 100px;
+  }
+.jumbotron .container {
+  h1 {
+    margin-top: 30px;
+  }
 }
