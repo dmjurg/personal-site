@@ -1,9 +1,13 @@
 // out: ../css/themes.css
 @import "small";
 @import "large";
+@font-face {
+  font-family: 'HeadingFont';
+  src: url('../a_bit_empty/A Bit Empty.ttf'); /* IE9 Compat Modes */
+}
 
 $bodyFont: 'Playfair Display', serif;
-$headingFont: 'Josefin Sans', sans-serif;
+$headingFont: 'HeadingFont', sans-serif;
 $fontSize: 18px;
 $dark: #1a1a1a;
 $light: #e6e6e6;
