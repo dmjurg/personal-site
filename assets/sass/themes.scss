@@ -15,7 +15,13 @@ body {
   color: $black;
   font-family: $headingFont;
   background: $white;
-
+}
+header {
+  color: $white;
+  background-image: url("../images/black-and-white-wallpaper-13.jpg");
+}
+a {
+  color: red;
 }
 .logo {
   text-align: center;
