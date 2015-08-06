@@ -50,4 +50,19 @@ h2 {
 }
 .site_img {
   max-width: 200px;
+  border-radius: 10px;
+}
+.k_j_wed, .winery_plan, .best_fest, .telly, .life {
+  display: inline-block;
+}
+p {
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+}
+.portrait {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 150px;
 }
