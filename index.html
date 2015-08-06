@@ -4,105 +4,76 @@
 <head>
   <title>Diana Jurgielewicz</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="assets/js/app.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/themes.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-fixed-top">
+<header>
 
-<div class="container">
-  <div id="navbar" class="navbar-collapse collapse">
-     <form class="navbar-form navbar-right">
-       <button type="submit" class="btn"><a href="https://www.linkedin.com/pub/diana-jurgielewicz/10/292/927">LinkedIn</a></button>
-       <button type="submit" class="btn"><a href="https://github.com/dmjurg">Github</a></button>
-       <button type="submit" class="btn"><a href="https://twitter.com/dmjurgles">Twitter</a></button>
-     </form>
- </div>
-</div>
-
-</nav>
-
-<div class="jumbotron">
- <div class="container">
-   <h1>Diana Jurgielewicz</h1>
-   <p>(it's Polish)</p>
-   <div class="row">
-     <img class="img col-md-4" src="assets/images/GA_Pic.jpg" alt="pic of Diana"></img>
-     <div class="about col-md-8">
-       <ul>
-         <li>Full Stack Web Developer</li>
-         <li>Volleyball Player</li>
-         <li>Big Law (Staff) Alumna</li>
-         <li>Reston Youth Basketball League Free Throw Champion (1996)</li>
-         <li>Member of the William and Mary Tribe</li>
-       </ul>
-     </div>
-   </div>
-   <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Email me! &raquo;</a></p> -->
- </div>
-</div>
-
-<div class="container wedding">
-<div class="row">
-  <div class="col-md-6">
-    <h2>Kelsey &amp; Jim Wedding Website</h2>
-    <p>Single page app built with JQuery and Bootstrap</p>
+  <div class="logo">
+    <h1>Diana Jurgielewicz</h1>
+    <h2>Full Stack Web Developer</h2>
   </div>
-  <div class="col-md-4 col-md-offset-2">
-    <img class="site_img" src="assets/images/Kelsey_Jim.png" alt="wedding site"></img>
-    <p><a class="btn site-btn" href="https://kelseyandjim.com" role="button">Visit &raquo;</a>
-      <a class="btn site-btn" href="https://github.com/dmjurg/kelseyandjim.github.io" role="button">Code &raquo;</a></p>
-  </div>
-</div>
-</div>
 
-<div class="container fest">
-<div class="row">
-  <div class="col-md-6">
-    <h2>Best Festies</h2>
-    <p>A Ruby on Rails app using JavaScript, jQuery. and backbone.js as well as the Geocoder and Chosen gems</p>
+  <div class="nav_bar">
+    <a class="external_link" href="https://www.linkedin.com/pub/diana-jurgielewicz/10/292/927"><i class="fa fa-linkedin-square"></i></a>
+    <a class="external_link" href="https://github.com/dmjurg"><i class="fa fa-github"></i></a>
+    <a class="external_link" href="https://twitter.com/dmjurgles"><i class="fa fa-twitter"></i></a>
   </div>
-  <div class="col-md-4 col-md-offset-2">
-    <img class="site_img" src="assets/images/Best_Fest.png" alt="best festies homepage"></img>
+
+</header>
+
+  <p class="blurb">I'm all about the little things. Whether it is a well-crafted bit of code, a striking chord progression in a song, or a perfect one-liner, I am a big proponent of celebrating and taking pride in the details.</p>
+
+  <div class="about_me">
+    <a id="work" href="#">Work</a>
+    <a id="about" href="#">About</a>
+    <a id="contact" href="#">Contact</a>
+  </div>
+
+  <div class="my_projects">
+    <h3>K &amp; J&rsquo;s Wedding</h3>
+    <!-- <p>Single page app built with JQuery and Bootstrap</p> -->
+
+    <img class="site_img" src="assets/images/k_and_j.png" alt="wedding site"></img>
+    <!-- <p><a class="btn site-btn" href="https://kelseyandjim.com" role="button">Visit &raquo;</a>
+    <a class="btn site-btn" href="https://github.com/dmjurg/kelseyandjim.github.io" role="button">Code &raquo;</a></p> -->
+    <h3>Winery Travel Planner</h3>
+    <img class="site_img" src="assets/images/coming-soon.jpeg" alt="winery"></img>
+    <h3>Best Festies</h3>
+    <!-- <p>A Ruby on Rails app using JavaScript, jQuery. and backbone.js as well as the Geocoder and Chosen gems</p> -->
+    <img class="site_img" src="assets/images/best_fest.png" alt="best festies"></img>
+    <!--
     <p><a class="btn site-btn" href="https://best-festies.herokuapp.com/" role="button">Visit &raquo;</a>
-      <a class="btn site-btn" href="https://github.com/dmjurg/best_festies" role="button">Code &raquo;</a></p>
-  </div>
-</div>
-</div>
+    <a class="btn site-btn" href="https://github.com/dmjurg/best_festies" role="button">Code &raquo;</a></p> -->
 
-<div class="container telly">
-<div class="row">
-  <div class="col-md-6">
-    <h2>Tel.ly</h2>
-    <p>A Ruby on Rails app featuring hand-rolled user authentication and CSS, and utilizing the Internet Movie Database API</p>
-  </div>
-  <div class="col-md-4 col-md-offset-2">
-    <img class="site_img" src="assets/images/telly.png" alt="telly homepage"></img>
+    <h3>Tel.ly</h3>
+    <img class="site_img" src="assets/images/telly.png" alt="telly"></img>
+    <!-- <p>A Ruby on Rails app featuring hand-rolled user authentication and CSS, and utilizing the Internet Movie Database API</p> -->
+    <!--
     <p><a class="btn site-btn" href="https://telly-wdi5.herokuapp.com/" role="button">Visit &raquo;</a>
-      <a class="btn site-btn" href="https://github.com/dmjurg/telly_project_3" role="button">Code &raquo;</a></p>
-  </div>
-</div>
-</div>
+    <a class="btn site-btn" href="https://github.com/dmjurg/telly_project_3" role="button">Code &raquo;</a></p> -->
 
-<div class="container life">
-<div class="row">
-  <div class="col-md-6">
-    <h2>L.I.F.E.</h2>
-    <p>A Ruby on Rails app using RESTful routes and the Devise gem</p>
-  </div>
-  <div class="col-md-4 col-md-offset-2">
-    <img class="site_img" src="assets/images/LIFE.png" alt="life homepage"></img>
+    <h3>L.I.F.E.</h3>
+    <img class="site_img" src="assets/images/life.png" alt="life"></img>
+    <!-- <p>A Ruby on Rails app using RESTful routes and the Devise gem</p> -->
+    <!--
     <p><a class="btn site-btn" href="https://desolate-anchorage-5031.herokuapp.com/" role="button">Visit &raquo;</a>
-      <a class="btn site-btn" href="https://github.com/dmjurg/team-nine" role="button">Code &raquo;</a></p>
+    <a class="btn site-btn" href="https://github.com/dmjurg/team-nine" role="button">Code &raquo;</a></p> -->
   </div>
-</div>
-</div>
 
-</div>
+  <div class="personal_info">
+    <p>Meticulous web developer with an imaginative mind and the ability to understand and communicate complex ideas. Combining a background in business and law with an excitement for creative exploration.</p>
+  </div>
+
+  <div class="contact_info">
+    <h4>Email Me</h4>
+    <h4>Resume Download</h4>
+  </div>
 
 </body>
 

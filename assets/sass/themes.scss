@@ -2,54 +2,52 @@
 @import "small";
 @import "large";
 @font-face {
-  font-family: 'HeadingFont';
-  src: url('../a_bit_empty/A Bit Empty.ttf'); /* IE9 Compat Modes */
+ /* IE9 Compat Modes */
 }
 
-$bodyFont: 'Playfair Display', serif;
-$headingFont: 'HeadingFont', sans-serif;
+$headingFont: 'Raleway', sans-serif;
 $fontSize: 18px;
-$dark: #1a1a1a;
-$light: #e6e6e6;
-$bright: #00cccc;
+$white: #EEEEEE;
+$black: #290014;
 
 body {
-  font-size: $fontSize;
-  font-family: $bodyFont;
-  color: $dark;
-}
-.jumbotron .container {
-  h1 {
+  margin: 0;
+  color: $black;
   font-family: $headingFont;
-  font-weight: bold;
-  font-size: 4em;
-  color: $bright;
-  }
-  img {
-    width: 275px;
-    border-radius: 200px;
-  }
-}
+  background: $white;
 
-.btn-primary a {
-  color: white;
 }
-
-.btn.btn-default.site-btn {
-  color: $bright;
+.logo {
+  text-align: center;
 }
-
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
 h2 {
-  font-family: $headingFont;
+  margin: 0;
+}
+.nav_bar {
+  text-align: center;
   font-size: 2em;
-  font-weight: bold;
-  color: $bright;
 }
-li {
-  font-family: $bodyFont;
-  font-size: 1.75em;
+.blurb {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
 }
-a {
-  font-family: $headingFont;
-  font-size: 1.5em;
+.about_me {
+  text-align: center;
+}
+.my_projects {
+  display: none;
+}
+.personal_info {
+  display: none;
+}
+.contact_info {
+  display: none;
+}
+.site_img {
+  max-width: 200px;
 }
