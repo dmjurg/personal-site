@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+var info_blocks = $('.info_block');
+
 var work = $('#work');
 var my_projects = $('.my_projects');
 
@@ -10,13 +12,16 @@ var contact = $('#contact');
 var contact_info = $('.contact_info');
 
 work.on('click', function(){
-  my_projects.toggleClass();
+  info_blocks.hide();
+  my_projects.show();
 })
 about.on('click', function(){
-  personal_info.toggleClass();
+  info_blocks.hide();
+  personal_info.show();
 })
 contact.on('click', function(){
-  contact_info.toggleClass();
+  info_blocks.hide();
+  contact_info.show();
 })
 
 });
