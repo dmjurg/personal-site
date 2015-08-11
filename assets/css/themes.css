@@ -3,25 +3,27 @@
 
 body {
   margin: 0;
-  color: #290014;
+  color: #333333;
   font-family: "Raleway", sans-serif;
   background: #EEEEEE; }
 
 header {
   color: #EEEEEE;
-  background-image: url("../images/black-and-white-wallpaper-13.jpg"); }
+  background-color: #333333; }
 
 a {
   color: red; }
 
 .logo {
-  text-align: center; }
+  text-align: center;
+  padding: 40px 40px 0px 40px; }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   margin: 0; }
 
 h2 {
+  font-size: 2em;
   margin: 0; }
 
 .nav_bar {
@@ -29,15 +31,22 @@ h2 {
   font-size: 2em; }
 
 .blurb {
+  text-align: center;
   margin: auto;
-  max-width: 70%;
-  text-align: center; }
+  max-width: 70%; }
 
 .about_me {
-  text-align: center; }
+  text-align: center;
+  padding: 40px; }
+
+.about_me a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 2em; }
 
 .my_projects {
-  display: none; }
+  display: none;
+  color: #333333; }
 
 .personal_info {
   display: none; }
@@ -47,18 +56,48 @@ h2 {
 
 .site_img {
   max-width: 200px;
-  border-radius: 10px; }
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  padding: 10px; }
+
+.project {
+  height: 375px;
+  width: 375px;
+  margin: 20px;
+  background-color: #858585; }
+
+.proj_text {
+  width: 300px;
+  margin: auto;
+  text-align: center; }
+
+.site_button, .code_button {
+  text-decoration: none;
+  margin: 20px;
+  background-color: red;
+  color: #EEEEEE;
+  padding: 5px;
+  border-radius: 5px; }
 
 .k_j_wed, .winery_plan, .best_fest, .telly, .life {
   display: inline-block; }
-
-p {
-  margin: auto;
-  text-align: center;
-  max-width: 70%; }
 
 .portrait {
   display: block;
   max-width: 300px;
   margin: auto;
-  border-radius: 150px; }
+  border-radius: 200px;
+  padding: 40px; }
+
+.personal_info p {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 0 0 40px 0;
+  font-size: 1.5em; }
+
+.contact_info h4 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333333; }
