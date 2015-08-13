@@ -65,7 +65,8 @@ h2 {
   height: 375px;
   width: 375px;
   margin: 20px;
-  background-color: #858585; }
+  background-color: #858585;
+  box-sizing: border-box; }
 
 .proj_text {
   width: 300px;
