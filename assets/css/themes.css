@@ -1,18 +1,5 @@
-@font-face {
-  /* IE9 Compat Modes */ }
-
 body {
-  margin: 0;
-  color: #333333;
-  font-family: "Raleway", sans-serif;
-  background: #EEEEEE; }
-
-header {
-  color: #EEEEEE;
-  background-color: #333333; }
-
-a {
-  color: red; }
+  margin: 0; }
 
 .logo {
   text-align: center;
@@ -40,19 +27,8 @@ h2 {
   padding: 40px; }
 
 .about_me a {
-  text-decoration: none;
   padding: 20px;
   font-size: 2em; }
-
-.my_projects {
-  display: none;
-  color: #333333; }
-
-.personal_info {
-  display: none; }
-
-.contact_info {
-  display: none; }
 
 .site_img {
   max-width: 200px;
@@ -65,7 +41,6 @@ h2 {
   height: 375px;
   width: 375px;
   margin: 20px;
-  background-color: #858585;
   box-sizing: border-box; }
 
 .proj_text {
@@ -74,10 +49,7 @@ h2 {
   text-align: center; }
 
 .site_button, .code_button {
-  text-decoration: none;
   margin: 20px;
-  background-color: red;
-  color: #EEEEEE;
   padding: 5px;
   border-radius: 5px; }
 
@@ -100,5 +72,43 @@ h2 {
 
 .contact_info h4 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.5em; }
+
+@font-face {
+  /* IE9 Compat Modes */ }
+
+body {
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  background: #EEEEEE; }
+
+header {
+  color: #EEEEEE;
+  background-color: #333333; }
+
+a {
+  color: red; }
+
+.about_me a {
+  text-decoration: none; }
+
+.my_projects {
+  display: none;
+  color: #333333; }
+
+.personal_info {
+  display: none; }
+
+.contact_info {
+  display: none; }
+
+.project {
+  background-color: #858585; }
+
+.site_button, .code_button {
+  text-decoration: none;
+  background-color: red;
+  color: #EEEEEE; }
+
+.contact_info h4 {
   color: #333333; }
